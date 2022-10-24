@@ -1,0 +1,54 @@
+.add-score-container {
+  background-color: grey;
+  width: 35rem;
+  padding: 1rem;
+  border: 2px solid grey;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+p {
+  background-color: rgb(128, 201, 176);
+  padding: 1rem;
+}
+h2 {
+  color: rgb(128, 201, 176);
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(128, 201, 176);
+  border: 1p solid blue;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: white;
+  outline: none;
+}
+
+p {
+  color: rgb(77, 70, 70);
+}
+
+.info-board {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-container {
+  color: rgb(90, 224, 218);
+  border: 2px solid black;
+  padding: 2rem;
+  box-shadow: 10px 5px 5px rgb(7, 6, 6);
+}
